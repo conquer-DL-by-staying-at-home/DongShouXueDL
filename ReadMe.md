@@ -12,7 +12,6 @@
 7. [伯禹平台在线课程入口](https://www.boyuai.com/elites/course/cZu18YmweLv10OeV)
 8. [科赛官网](https://www.kesci.com/)
 9. [打卡链接](https://jinshuju.net/f/LYtniN),[打卡结果](https://jinshuju.net/f/LYtniN/r/aL1mRs)
-10. 
 
 
 
