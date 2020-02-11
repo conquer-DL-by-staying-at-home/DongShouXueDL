@@ -13,7 +13,11 @@
 8. [科赛官网](https://www.kesci.com/)
 9. [打卡链接](https://jinshuju.net/f/LYtniN),[打卡结果](https://jinshuju.net/f/LYtniN/r/aL1mRs)
 
+## 2.课后练习[持续更新]
+[链接](QUESTIONS.md)
 
+## 3.课堂对应的jupyter notebook
+git 到本地后，可用浏览器打开html文件查看
 
 ## FAQ常见问题
 具体如何提issue和PR，请参考[这里](CONTRIBUTING.md)。
