@@ -4,7 +4,7 @@
 ## 如何合理使用git从本仓库拉取更新内容
 1. 首先请fork本仓库 
 访问[DongShouXue仓库](https://github.com/conquer-DL-by-staying-at-home/DongShouXueDL)主页，并 Fork 到自己的账号下。
-![fork](./static/fork.png)
+![fork](./static/fork.jpg)
 
 2. Clone仓库
 回到自己的 GitHub 主页，并找到刚刚 Fork 过来的 DongShouXue 仓库，进入XXX仓库主页, 将该仓库 clone 到本地，如：
@@ -57,8 +57,8 @@ $ git push -f origin my-fix-branch:my-fix-branch
 
 7. 提 `Pull Request`
 在自己仓库的页面上提`pull request` 到上游仓库。如下图所示.
-![pull_request](./static/pull_request.png)
-![new_pull](./static/new_pull.png)
+![pull_request](./static/pull_request.jpg)
+![new_pull](./static/new_pull.jpg)
 
 如果其他人 `review` 之后，需要再进行更改，就修改相关内容，然后执行以下操作，该 `Pull Request` 将会自动同步该 `commit` 。
 
