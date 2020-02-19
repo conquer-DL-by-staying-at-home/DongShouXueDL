@@ -39,3 +39,11 @@
 ![机器翻译及相关技术1](./课后练习/机器翻译及相关技术1.jpg)
 ![机器翻译及相关技术2](./课后练习/机器翻译及相关技术2.jpg)
 ![机器翻译及相关技术3](./课后练习/机器翻译及相关技术3.jpg)
+
+### 11.注意力机制和Seq2Seq模型
+![注意力机制和Seq2Seq模型](./课后练习/注意力机制和Seq2Seq模型.jpg)
+![注意力机制和Seq2Seq模型2](./课后练习/注意力机制和Seq2Seq模型2.jpg)
+
+### 12.Transformer
+![Transformer1](./课后练习/Transformer1.jpg)
+![Transformer2](./课后练习/Transformer2.jpg)
