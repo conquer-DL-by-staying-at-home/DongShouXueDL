@@ -47,3 +47,19 @@
 ### 12.Transformer
 ![Transformer1](./课后练习/Transformer1.jpg)
 ![Transformer2](./课后练习/Transformer2.jpg)
+
+### 13.卷积神经网络基础
+![卷积神经网络基础1](./课后练习/CNN1.jpg)
+![卷积神经网络基础2](./课后练习/CNN2.jpg)
+![卷积神经网络基础3](./课后练习/CNN3.jpg)
+
+
+### 14.LeNet
+![lenet1](./课后练习/lenet1.jpg)
+![lenet2](./课后练习/lenet2.jpg)
+
+
+### 15.卷积神经网络进阶
+![modernCNN1](./课后练习/modernCNN1.jpg)
+![modernCNN2](./课后练习/modernCNN2.jpg)
+![modernCNN3](./课后练习/modernCNN3.jpg)
