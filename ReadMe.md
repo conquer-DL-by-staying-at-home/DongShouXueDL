@@ -19,6 +19,9 @@
 ## 3.课堂对应的jupyter notebook
 git 到本地后，可用浏览器打开html文件查看
 
+## 4.常见问题汇总
+[石墨文档-Klab常见问题，下载等](https://shimo.im/docs/86tr6VvQVRdvkX8r/read)
+
 ## FAQ常见问题
 具体如何提issue和PR，请参考[这里](CONTRIBUTING.md)。
 

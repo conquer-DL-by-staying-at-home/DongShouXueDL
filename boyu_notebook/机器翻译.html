@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0074)https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html -->
+<!-- saved from url=(0074)https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>机器翻译</title>
@@ -13050,7 +13050,7 @@ div#notebook {
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="./机器翻译_files/latest.js.下载"></script><script type="text/javascript" async="" src="./机器翻译_files/MathJax.js.下载"></script>
+    <script src="./机器翻译_files/latest.js.下载"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config;executed=true">
     MathJax.Hub.Config({
@@ -13069,7 +13069,7 @@ div#notebook {
         }
     });
     </script>
-    <!-- End of mathjax configuration --><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+    <!-- End of mathjax configuration --><script type="text/javascript" async="" src="./机器翻译_files/MathJax.js.下载"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
 .MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
 .MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
 .MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
@@ -13172,45 +13172,11 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="机器翻译和数据集">机器翻译和数据集<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91%E5%92%8C%E6%95%B0%E6%8D%AE%E9%9B%86">¶</a></h1><p>机器翻译（MT）：将一段文本从一种语言自动翻译为另一种语言，用神经网络解决这个问题通常称为神经机器翻译（NMT）。
+<h1 id="机器翻译和数据集">机器翻译和数据集<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91%E5%92%8C%E6%95%B0%E6%8D%AE%E9%9B%86">¶</a></h1><p>机器翻译（MT）：将一段文本从一种语言自动翻译为另一种语言，用神经网络解决这个问题通常称为神经机器翻译（NMT）。
 主要特征：输出是单词序列而不是单个单词。 输出序列的长度可能与源序列的长度不同。</p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
-<span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s1">'/home/kesci/input/'</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[28]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>['fraeng6506', 'd2l9528', 'd2l6239']</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -13239,7 +13205,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="数据预处理">数据预处理<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86">¶</a></h3><p>将数据集清洗、转化为神经网络的输入minbatch</p>
+<h3 id="数据预处理">数据预处理<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86">¶</a></h3><p>将数据集清洗、转化为神经网络的输入minbatch</p>
 
 </div>
 </div>
@@ -13350,7 +13316,7 @@ stop !	ça suffit !	cc-b
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="分词">分词<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#%E5%88%86%E8%AF%8D">¶</a></h3><p>字符串---单词组成的列表</p>
+<h3 id="分词">分词<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#%E5%88%86%E8%AF%8D">¶</a></h3><p>字符串---单词组成的列表</p>
 
 </div>
 </div>
@@ -13436,7 +13402,7 @@ stop !	ça suffit !	cc-b
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="建立词典">建立词典<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#%E5%BB%BA%E7%AB%8B%E8%AF%8D%E5%85%B8">¶</a></h3><p>单词组成的列表---单词id组成的列表</p>
+<h3 id="建立词典">建立词典<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#%E5%BB%BA%E7%AB%8B%E8%AF%8D%E5%85%B8">¶</a></h3><p>单词组成的列表---单词id组成的列表</p>
 
 </div>
 </div>
@@ -13482,7 +13448,7 @@ stop !	ça suffit !	cc-b
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="./机器翻译_files/q5jc5ga5gy.png" alt="Image Name"></p>
+<p><img src="./机器翻译_files/mkuM5MTPKefV6cyhZWkYm.png!png" alt="Image Name"></p>
 
 </div>
 </div>
@@ -13490,7 +13456,7 @@ stop !	ça suffit !	cc-b
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="载入数据集">载入数据集<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#%E8%BD%BD%E5%85%A5%E6%95%B0%E6%8D%AE%E9%9B%86">¶</a></h3>
+<h3 id="载入数据集">载入数据集<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#%E8%BD%BD%E5%85%A5%E6%95%B0%E6%8D%AE%E9%9B%86">¶</a></h3>
 </div>
 </div>
 </div>
@@ -13553,7 +13519,7 @@ stop !	ça suffit !	cc-b
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="./机器翻译_files/q5jc6e5tt1.png" alt="Image Name"></p>
+<p><img src="./机器翻译_files/K_Lz27Ax-M7_WN6aMI0YN.png!png" alt="Image Name"></p>
 
 </div>
 </div>
@@ -13620,9 +13586,9 @@ Valid lengths for Y = tensor([7, 7])
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Encoder-Decoder">Encoder-Decoder<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#Encoder-Decoder">¶</a></h1><p>encoder：输入到隐藏状态<br>
+<h1 id="Encoder-Decoder">Encoder-Decoder<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#Encoder-Decoder">¶</a></h1><p>encoder：输入到隐藏状态<br>
  decoder：隐藏状态到输出</p>
-<p><img src="./机器翻译_files/q5jcat3c8m.png" alt="Image Name"></p>
+<p><img src="./机器翻译_files/AxrI8-yaBYoE_6XMaatXy.png!png" alt="Image Name"></p>
 
 </div>
 </div>
@@ -13699,12 +13665,12 @@ Valid lengths for Y = tensor([7, 7])
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Sequence-to-Sequence模型">Sequence to Sequence模型<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#Sequence-to-Sequence%E6%A8%A1%E5%9E%8B">¶</a></h1><h3 id="模型：">模型：<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#%E6%A8%A1%E5%9E%8B%EF%BC%9A">¶</a></h3><p>训练<br>
-<img src="./机器翻译_files/q5jc7a53pt.png" alt="Image Name">
+<h1 id="Sequence-to-Sequence模型">Sequence to Sequence模型<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#Sequence-to-Sequence%E6%A8%A1%E5%9E%8B">¶</a></h1><h3 id="模型：">模型：<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#%E6%A8%A1%E5%9E%8B%EF%BC%9A">¶</a></h3><p>训练<br>
+<img src="./机器翻译_files/ZhSycGB-dMEG4U9TEsUY_.png!png" alt="Image Name">
 预测</p>
-<p><img src="./机器翻译_files/q5jcecxcba.png" alt="Image Name"></p>
-<h3 id="具体结构：">具体结构：<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#%E5%85%B7%E4%BD%93%E7%BB%93%E6%9E%84%EF%BC%9A">¶</a></h3><p><img src="./机器翻译_files/q5jccjhkii.png" alt="Image Name"></p>
-<h3 id="Encoder">Encoder<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#Encoder">¶</a></h3>
+<p><img src="./机器翻译_files/cQ3gGMzCRcM2DVV14KJZp.png!png" alt="Image Name"></p>
+<h3 id="具体结构：">具体结构：<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#%E5%85%B7%E4%BD%93%E7%BB%93%E6%9E%84%EF%BC%9A">¶</a></h3><p><img src="./机器翻译_files/63qCFA_ZtL_z0uH-Bk58C.png!png" alt="Image Name"></p>
+<h3 id="Encoder">Encoder<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#Encoder">¶</a></h3>
 </div>
 </div>
 </div>
@@ -13780,7 +13746,7 @@ Valid lengths for Y = tensor([7, 7])
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Decoder">Decoder<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#Decoder">¶</a></h1>
+<h1 id="Decoder">Decoder<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#Decoder">¶</a></h1>
 </div>
 </div>
 </div>
@@ -13852,7 +13818,7 @@ Valid lengths for Y = tensor([7, 7])
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="损失函数">损失函数<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0">¶</a></h3>
+<h3 id="损失函数">损失函数<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0">¶</a></h3>
 </div>
 </div>
 </div>
@@ -14008,7 +13974,7 @@ Valid lengths for Y = tensor([7, 7])
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="训练">训练<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#%E8%AE%AD%E7%BB%83">¶</a></h3>
+<h3 id="训练">训练<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#%E8%AE%AD%E7%BB%83">¶</a></h3>
 </div>
 </div>
 </div>
@@ -14099,7 +14065,7 @@ epoch  300,loss 0.025, time 37.3 sec
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="测试">测试<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#%E6%B5%8B%E8%AF%95">¶</a></h3>
+<h3 id="测试">测试<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#%E6%B5%8B%E8%AF%95">¶</a></h3>
 </div>
 </div>
 </div>
@@ -14175,27 +14141,14 @@ I won ! =&gt; j'ai gagné !
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Beam-Search">Beam Search<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/g-bCCOUpzipqQPG4Y2tK-.html#Beam-Search">¶</a></h1><p>简单greedy search：</p>
-<p><img src="./机器翻译_files/q5jchqoppn.png" alt="Image Name"></p>
+<h1 id="Beam-Search">Beam Search<a class="anchor-link" href="https://staticcdn.boyuai.com/course/jupyter/365/CPgnufkZmBVstsBQ329gX.html#Beam-Search">¶</a></h1><p>简单greedy search：</p>
+<p><img src="./机器翻译_files/0lBewY1JmbMAelCi8nd9t.png!png" alt="Image Name"></p>
 <p>维特比算法：选择整体分数最高的句子（搜索空间太大）
 集束搜索：</p>
-<p><img src="./机器翻译_files/q5jcia86z1.png" alt="Image Name"></p>
+<p><img src="./机器翻译_files/csSj4W6JcnK1Ncu4OXOIA.png!png" alt="Image Name"></p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
     </div>
   </div>
