@@ -41,31 +41,31 @@
 ![机器翻译及相关技术3](./课后练习/机器翻译及相关技术3.jpg)
 
 ### 11.注意力机制和Seq2Seq模型
-![注意力机制和Seq2Seq模型](./课后练习/注意力机制和Seq2Seq模型.jpg)
-![注意力机制和Seq2Seq模型2](./课后练习/注意力机制和Seq2Seq模型2.jpg)
+![注意力机制和Seq2Seq模型](./课后练习/注意力机制和Seq2Seq模型.JPG)
+![注意力机制和Seq2Seq模型2](./课后练习/注意力机制和Seq2Seq模型2.JPG)
 
 ### 12.Transformer
-![Transformer1](./课后练习/Transformer1.jpg)
-![Transformer2](./课后练习/Transformer2.jpg)
+![Transformer1](./课后练习/Transformer1.JPG)
+![Transformer2](./课后练习/Transformer2.JPG)
 
 ### 13.卷积神经网络基础
-![卷积神经网络基础1](./课后练习/CNN1.jpg)
-![卷积神经网络基础2](./课后练习/CNN2.jpg)
-![卷积神经网络基础3](./课后练习/CNN3.jpg)
+![卷积神经网络基础1](./课后练习/CNN1.JPG)
+![卷积神经网络基础2](./课后练习/CNN2.JPG)
+![卷积神经网络基础3](./课后练习/CNN3.JPG)
 
 
 ### 14.LeNet
-![lenet1](./课后练习/lenet1.jpg)
-![lenet2](./课后练习/lenet2.jpg)
+![lenet1](./课后练习/lenet1.JPG)
+![lenet2](./课后练习/lenet2.JPG)
 
 
 ### 15.卷积神经网络进阶
-![modernCNN1](./课后练习/modernCNN1.jpg)
-![modernCNN2](./课后练习/modernCNN2.jpg)
-![modernCNN3](./课后练习/modernCNN3.jpg)
+![modernCNN1](./课后练习/modernCNN1.JPG)
+![modernCNN2](./课后练习/modernCNN2.JPG)
+![modernCNN3](./课后练习/modernCNN3.JPG)
 
 ### 16.批量归一化和残差网络
-![批量归一化和残差网络1](./课后练习/批量归一化和残差网络1.jpg)
-![批量归一化和残差网络2](./课后练习/批量归一化和残差网络2.jpg)
-![批量归一化和残差网络3](./课后练习/批量归一化和残差网络3.jpg)
+![批量归一化和残差网络1](./课后练习/批量归一化和残差网络1.JPG)
+![批量归一化和残差网络2](./课后练习/批量归一化和残差网络2.JPG)
+![批量归一化和残差网络3](./课后练习/批量归一化和残差网络3.JPG)
 
